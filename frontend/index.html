@@ -1,0 +1,32 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Báo cáo lỗi</title>
+</head>
+<body>
+<h2>BÁO CÁO LỖI</h2>
+<input id="name" placeholder="Thiết bị / Hạng mục"><br><br>
+<input id="location" placeholder="Vị trí"><br><br>
+<textarea id="desc" placeholder="Mô tả lỗi"></textarea><br><br>
+<select id="type"><option>Thiết bị</option><option>Công trình</option></select>
+<select id="level"><option>Nhẹ</option><option>Trung bình</option><option>Nghiêm trọng</option></select><br><br>
+<button onclick="send()">GỬI BÁO CÁO</button>
+<script src="app.js"></script>
+</body>
+</html>
+```
+
+# ================= frontend/dashboard.html =================
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head><meta charset="UTF-8"><title>Dashboard</title></head>
+<body>
+<h2>DASHBOARD QUẢN LÝ LỖI</h2>
+<table border="1" id="tbl"></table>
+<script src="app.js"></script>
+</body>
+</html>
+```
